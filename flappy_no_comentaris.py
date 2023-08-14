@@ -99,7 +99,7 @@ class Ocell:
 
 class Columna:
     ESPAI = 200 
-    VELOCITAT = 10
+    VELOCITAT = 20
 
     def __init__(self, x): 
         self.x = x
@@ -295,7 +295,7 @@ def main(genomes, configuració):
 
         dibuixar_elements(finestra, ocells, columnes, bases, puntuació, GEN) 
 
-def executar(configuració_ruta):
+def importar(configuració_ruta):
    
     configuració = neat.config.Config(neat.DefaultGenome, neat.DefaultReproduction,
                                       neat.DefaultSpeciesSet, neat.DefaultStagnation,
@@ -305,7 +305,7 @@ def executar(configuració_ruta):
 
     població.add_reporter(neat.StdOutReporter(True)) 
 
-    població.run(main, 50) 
+    població.run(main, 100) 
 
 if __name__ == '__main__':
 
@@ -313,4 +313,4 @@ if __name__ == '__main__':
 
     configuració_ruta = os.path.join(local_ruta, "config.txt") 
 
-    executar(configuració_ruta) 
+    importar(configuració_ruta) 
