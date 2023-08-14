@@ -1,3 +1,3 @@
 # Flappy_Bird_no_comentarios
 
-Aquí encontrarás el mismo código que el anterior repositiorio pero esta vez sin comentarios
+Aquí trobaràs el mateix codi que l'anterior repositori però aquesta vegada sense comentaris
