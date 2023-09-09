@@ -311,6 +311,6 @@ if __name__ == '__main__':
 
     local_ruta = os.path.dirname(__file__) 
 
-    configuració_ruta = os.path.join(local_ruta, "config.txt") 
+    configuració_ruta = os.path.join(local_ruta, "config_no_comentaris.txt") 
 
     importar(configuració_ruta) 
