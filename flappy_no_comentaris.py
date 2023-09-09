@@ -305,7 +305,7 @@ def importar(configuració_ruta):
 
     població.add_reporter(neat.StdOutReporter(True)) 
 
-    població.run(main, 100) 
+    població.run(main, 50) 
 
 if __name__ == '__main__':
 
